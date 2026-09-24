@@ -1,0 +1,23 @@
+{
+  "generated_from": "data/interim/*.csv via scripts/04_export.py",
+  "total_sources": 45,
+  "sources_by_tier": {
+    "Tier 1": 18,
+    "Tier 2": 10,
+    "Tier 3": 17
+  },
+  "dated_campaign_events": 44,
+  "documented_numeric_conflicts": 24,
+  "analytical_insights": 9,
+  "fortification_structures_catalogued": 8,
+  "strategic_factors_analyzed": 11,
+  "siege_duration_days_reported": [
+    53,
+    55
+  ],
+  "conquest_date": "1453-05-29",
+  "siege_open_date_conventional": "1453-04-06",
+  "capital_relocation_year": 1459,
+  "first_postconquest_census_year": 1477,
+  "unesco_inscription_year": 1985
+}

@@ -1,0 +1,73 @@
+@import '@fontsource-variable/newsreader';
+@import '@fontsource-variable/newsreader/wght-italic.css';
+@import '@fontsource/ibm-plex-sans-condensed/400.css';
+@import '@fontsource/ibm-plex-sans-condensed/500.css';
+@import '@fontsource/ibm-plex-sans-condensed/600.css';
+@import '@fontsource/ibm-plex-sans-condensed/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-ink text-parchment font-body antialiased;
+  background-image:
+    radial-gradient(ellipse 1200px 600px at 20% -10%, rgba(107,64,136,0.16), transparent 60%),
+    radial-gradient(ellipse 900px 500px at 100% 0%, rgba(198,162,78,0.10), transparent 55%);
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(198,162,78,0.35);
+  color: #ECE3CE;
+}
+
+/* thin gold scrollbar to match the theme */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #10121A; }
+::-webkit-scrollbar-thumb { background: #3A3F55; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #4d5471; }
+
+.hairline {
+  border-color: rgba(198,162,78,0.22);
+}
+
+.font-display { font-family: '"Newsreader Variable"', Georgia, serif; }
+
+/* utility: numeric/data tables get tabular figures */
+.tabular-nums { font-variant-numeric: tabular-nums; }
+
+a:focus-visible, button:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid #E8C579;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+.leaflet-container {
+  background: #171A25 !important;
+  font-family: '"IBM Plex Sans Condensed"', sans-serif;
+}
+.leaflet-popup-content-wrapper {
+  background: #1C2030;
+  color: #ECE3CE;
+  border: 1px solid rgba(198,162,78,0.3);
+  border-radius: 6px;
+}
+.leaflet-popup-tip { background: #1C2030; }
+.leaflet-popup-content { margin: 10px 12px; font-size: 13px; }
+.leaflet-control-attribution {
+  background: rgba(16,18,26,0.7) !important;
+  color: #8C8570 !important;
+}
+.leaflet-control-attribution a { color: #C6A24E !important; }

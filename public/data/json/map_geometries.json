@@ -1,0 +1,284 @@
+[
+  {
+    "feature_id": "G01",
+    "name": "Theodosian land walls (Marmara to Edirnekapi)",
+    "layer": "Walls",
+    "geometry_type": "line",
+    "style_key": "land_wall",
+    "coordinates": [
+      [
+        40.988991,
+        28.920167
+      ],
+      [
+        40.9933,
+        28.921
+      ],
+      [
+        41.00611,
+        28.921798
+      ],
+      [
+        41.007941,
+        28.922356
+      ],
+      [
+        41.019087,
+        28.924337
+      ],
+      [
+        41.0212,
+        28.9262
+      ],
+      [
+        41.03,
+        28.937
+      ]
+    ],
+    "coord_quality": "Published GPS at three gates; other vertices approximate",
+    "description": "Main land-wall line built c.412-413 and rebuilt after 447. Vertices at the First, Silivrikapi and Fourth Military gates use published GPS values; the rest are approximate.",
+    "source_ids": "S16;S24;S10",
+    "source_id_list": [
+      "S16",
+      "S24",
+      "S10"
+    ]
+  },
+  {
+    "feature_id": "G02",
+    "name": "Blachernae sector walls",
+    "layer": "Walls",
+    "geometry_type": "line",
+    "style_key": "blachernae_wall",
+    "coordinates": [
+      [
+        41.03,
+        28.937
+      ],
+      [
+        41.035,
+        28.9395
+      ],
+      [
+        41.039,
+        28.941
+      ],
+      [
+        41.0416,
+        28.9425
+      ]
+    ],
+    "coord_quality": "Approximate",
+    "description": "Northern extension to the Golden Horn, described as a later single-wall section and a weak link.",
+    "source_ids": "S23;S14;S02",
+    "source_id_list": [
+      "S23",
+      "S14",
+      "S02"
+    ]
+  },
+  {
+    "feature_id": "G03",
+    "name": "Marmara sea walls (schematic)",
+    "layer": "Walls",
+    "geometry_type": "line",
+    "style_key": "sea_wall",
+    "coordinates": [
+      [
+        40.9889,
+        28.9203
+      ],
+      [
+        40.9925,
+        28.926
+      ],
+      [
+        40.997,
+        28.933
+      ],
+      [
+        41.001,
+        28.942
+      ],
+      [
+        41.0048,
+        28.9503
+      ],
+      [
+        41.003,
+        28.964
+      ],
+      [
+        41.002,
+        28.972
+      ],
+      [
+        41.0045,
+        28.979
+      ],
+      [
+        41.011,
+        28.984
+      ],
+      [
+        41.0158,
+        28.9862
+      ]
+    ],
+    "coord_quality": "Schematic",
+    "description": "Single-line wall along the Sea of Marmara shore. Drawn as a schematic line following the shore; do not read as surveyed.",
+    "source_ids": "S14",
+    "source_id_list": [
+      "S14"
+    ]
+  },
+  {
+    "feature_id": "G04",
+    "name": "Golden Horn sea walls (schematic)",
+    "layer": "Walls",
+    "geometry_type": "line",
+    "style_key": "sea_wall",
+    "coordinates": [
+      [
+        41.0158,
+        28.9862
+      ],
+      [
+        41.019,
+        28.98
+      ],
+      [
+        41.018,
+        28.975
+      ],
+      [
+        41.0185,
+        28.9715
+      ],
+      [
+        41.0215,
+        28.967
+      ],
+      [
+        41.0255,
+        28.96
+      ],
+      [
+        41.029,
+        28.953
+      ],
+      [
+        41.0315,
+        28.949
+      ],
+      [
+        41.034,
+        28.9465
+      ],
+      [
+        41.0385,
+        28.943
+      ],
+      [
+        41.0416,
+        28.9425
+      ]
+    ],
+    "coord_quality": "Schematic",
+    "description": "Single-line wall along the Golden Horn shore, described as weaker than the land walls. Schematic.",
+    "source_ids": "S15;S14",
+    "source_id_list": [
+      "S15",
+      "S14"
+    ]
+  },
+  {
+    "feature_id": "G05",
+    "name": "Golden Horn boom (schematic)",
+    "layer": "Water",
+    "geometry_type": "line",
+    "style_key": "boom",
+    "coordinates": [
+      [
+        41.0195,
+        28.9782
+      ],
+      [
+        41.0232,
+        28.9772
+      ]
+    ],
+    "coord_quality": "Schematic",
+    "description": "Chain across the mouth of the Golden Horn between Constantinople and Galata. Anchor points are debated.",
+    "source_ids": "S13;S15",
+    "source_id_list": [
+      "S13",
+      "S15"
+    ]
+  },
+  {
+    "feature_id": "G06",
+    "name": "Ottoman overland ship route (schematic)",
+    "layer": "Campaign",
+    "geometry_type": "line",
+    "style_key": "overland",
+    "coordinates": [
+      [
+        41.0392,
+        28.9985
+      ],
+      [
+        41.0375,
+        28.986
+      ],
+      [
+        41.034,
+        28.978
+      ],
+      [
+        41.0305,
+        28.9715
+      ],
+      [
+        41.029,
+        28.9668
+      ]
+    ],
+    "coord_quality": "Schematic",
+    "description": "Approximate traditional route by which about 70 ships were hauled from the Bosphorus into the Golden Horn on 22 April 1453. The exact path is debated.",
+    "source_ids": "S02;S12;S15",
+    "source_id_list": [
+      "S02",
+      "S12",
+      "S15"
+    ]
+  },
+  {
+    "feature_id": "G07",
+    "name": "Ottoman artillery focus (Lycus valley)",
+    "layer": "Campaign",
+    "geometry_type": "line",
+    "style_key": "artillery_focus",
+    "coordinates": [
+      [
+        41.0079,
+        28.9224
+      ],
+      [
+        41.0191,
+        28.9243
+      ],
+      [
+        41.0212,
+        28.9262
+      ]
+    ],
+    "coord_quality": "Approximate",
+    "description": "Sector of the land walls against which the heaviest guns and assaults are described as concentrated (Lycus valley / Mesoteichion).",
+    "source_ids": "S02;S16",
+    "source_id_list": [
+      "S02",
+      "S16"
+    ]
+  }
+]

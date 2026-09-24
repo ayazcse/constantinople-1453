@@ -1,0 +1,25 @@
+location_id,name,layer,type,lat,lon,coord_quality,side,description,source_ids
+L01,Hagia Sophia,City,Landmark,41.0086,28.9802,Precise,Neutral,"Patriarchal cathedral of the Byzantine capital; converted into the premier imperial mosque in 1453 without a change of name.",S05
+L02,Topkapi Palace (New Palace),City,Landmark,41.0115,28.9834,Precise,Ottoman,"Begun in 1459 and completed in 1478 on the ancient acropolis; became the seat of the Ottoman court.",S05
+L03,Fatih Mosque complex (site of the Church of the Holy Apostles),City,Landmark,41.0196,28.9497,Precise,Ottoman,"Mehmed II's complex; foundation inscription dated 1463-70; eight madrasas; built on the site of the Church of the Holy Apostles.",S05
+L04,Old Palace site (Beyazit),City,Landmark,41.0117,28.9640,Approximate,Ottoman,"First Ottoman palace in the city near the old Forum of Theodosius (Beyazit Square area). Exact footprint not mapped here.",S05
+L05,Blachernae quarter and palace area,Walls,Sector,41.0375,28.9400,Approximate,Byzantine,"Northern sector where the defence relied on a later single-wall extension; Byzantine imperial residence area. One of the two points where the defence cracked on 29 May.",S02;S23;S14
+L06,Eyup Sultan complex,City,Landmark,41.0477,28.9339,Approximate,Ottoman,"Shrine associated with the discovery of the tomb of Abu Ayyub al-Ansari after the conquest; outside the walls on the Golden Horn.",S05
+L07,Galata (Genoese Pera),Strategic,District,41.0256,28.9744,Precise,Genoese,"Genoese colony across the Golden Horn; stayed neutral during the siege. Marker placed on Galata Tower as a landmark for the district.",S02
+L08,Seraglio Point (Sarayburnu),Water,Headland,41.0166,28.9850,Approximate,Neutral,"Headland where the Marmara and Golden Horn walls meet; site later chosen for the Topkapi Palace.",S05
+L09,Golden Gate and Yedikule Fortress,Walls,Gate,40.9934,28.9215,Approximate,Byzantine,"Ceremonial gate at the Marmara end of the land walls; the Ottomans built Yedikule Fortress behind it in 1458.",S10
+L10,First Military Gate,Walls,Gate,40.988991,28.920167,Published GPS,Byzantine,"Southern end of the land walls near the Sea of Marmara.",S16
+L11,Silivrikapi (Gate of the Spring),Walls,Gate,41.006110,28.921798,Published GPS,Byzantine,"Gate whose towers carry a 1439 repair inscription in published descriptions.",S16
+L12,Fourth Military Gate (centre of the Mesoteichion),Walls,Gate,41.019087,28.924337,Published GPS,Byzantine,"Described as lying at the centre of the Mesoteichion (Lycus valley) - the sector described as the weakest section of the wall. Ottoman heavy guns were concentrated against the Lycus valley.",S16;S02
+L13,Gate of St. Romanus (Topkapi),Walls,Gate,41.0212,28.9262,Approximate,Byzantine,"Janissaries breached the stockade near this gate on 29 May. Identification of the gate is debated in the literature; position is approximate.",S02;S16
+L14,Gate of Charisius (Edirnekapi),Walls,Gate,41.0300,28.9370,Approximate,Byzantine,"Reported command point of Constantine XI in 1453 and, in some accounts, the gate of Mehmed II's entry.",S38;S23
+L15,Kerkoporta (postern near Blachernae),Walls,Gate,41.0350,28.9395,Approximate,Byzantine,"Small postern that the Oxford Dictionary of Byzantium says was left unattended; exact location is debated, so treat this marker as indicative only.",S02
+L16,Mal Tepe (traditional command position of Mehmed II),Strategic,Position,41.0215,28.9215,Approximate,Ottoman,"Tradition places the sultan's command position on the mound outside the Topkapi gate. Tradition only; coordinates indicative.",S36
+L17,Rumeli Hisari,Strategic,Fortress,41.0847,29.0561,Precise,Ottoman,"Ottoman fortress built 15 April-31 August 1452 at the narrowest point of the Bosphorus (about 660 m).",S17;S41;S03
+L18,Anadolu Hisari,Strategic,Fortress,41.0846,29.0672,Approximate,Ottoman,"Fortress on the Asian shore built by Bayezid I in 1393-94, opposite Rumeli Hisari.",S17
+L19,Golden Horn boom (chain),Water,Naval barrier,41.0213,28.9777,Schematic,Byzantine,"Chain stretched across the mouth of the Golden Horn between Constantinople and Galata (from 2 April 1453). Anchor points are debated; marker is the midpoint of a schematic line.",S13;S15;S14
+L20,Ottoman fleet anchorage (Dolmabahce-Besiktas shore),Water,Anchorage,41.0395,28.9997,Approximate,Ottoman,"Bosphorus shore where the ships hauled overland on 22 April are usually placed. Indicative.",S15;S02
+L21,Overland landing on the Golden Horn (Kasimpasa shore),Water,Landing,41.0290,28.9668,Approximate,Ottoman,"Approximate point where the hauled ships entered the Golden Horn behind Galata. The exact route is debated.",S02;S15
+L22,Golden Horn (Halic),Water,Water body,41.0335,28.9525,Precise,Neutral,"Inlet along the northern side of the city; the sea walls here were single-line and weaker than the land walls.",S15;S14
+L23,Bosphorus,Water,Water body,41.0600,29.0350,Precise,Neutral,"Strait linking the Black Sea and the Sea of Marmara; Ottoman control of the shores in 1452 cut the Black Sea route.",S17;S41
+L24,Sea of Marmara,Water,Water body,40.9800,28.9700,Precise,Neutral,"Southern sea approach; the Marmara sea walls were a single line.",S14

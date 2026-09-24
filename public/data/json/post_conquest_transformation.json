@@ -1,0 +1,213 @@
+[
+  {
+    "transform_id": "T01",
+    "period": "1453 (same year)",
+    "ruler": "Mehmed II",
+    "dimension": "Religious institutions",
+    "change_description": "Hagia Sophia converted into the city's premier imperial mosque immediately, retaining its name (Ayasofya).",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T02",
+    "period": "1453-1454",
+    "ruler": "Mehmed II",
+    "dimension": "Administrative / religious",
+    "change_description": "George Scholarios (Gennadios II) appointed Orthodox patriarch on 6 January 1454, continuing the patriarchate under Ottoman authority and, per Oz, encouraging former Christian residents to return.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "transform_id": "T03",
+    "period": "1453-1460",
+    "ruler": "Mehmed II",
+    "dimension": "Demographic",
+    "change_description": "Forced and incentivized resettlement (surgun) of Muslim, Christian, and Jewish populations from across the empire (Rumelian Jews, Bursa residents moved to Eyup, Serbian/Hungarian/Bulgarian settlers, Morea population in 1459-60); an initial 1453 wave of Anatolian settlers reportedly returned home by autumn, showing the policy needed repeated iterations.",
+    "fact_or_interpretation": "Fact (policy and specific waves are documented); the demographic 'success' framing is interpretation",
+    "confidence": "High",
+    "source_ids": "S04;S18",
+    "source_id_list": [
+      "S04",
+      "S18"
+    ]
+  },
+  {
+    "transform_id": "T04",
+    "period": "1455",
+    "ruler": "Mehmed II",
+    "dimension": "Administrative",
+    "change_description": "First post-conquest survey (partial) of Istanbul and Galata completed, recording households by quarter.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S04;S07",
+    "source_id_list": [
+      "S04",
+      "S07"
+    ]
+  },
+  {
+    "transform_id": "T05",
+    "period": "1457",
+    "ruler": "Mehmed II",
+    "dimension": "Religious institutions",
+    "change_description": "Waqf (religious endowment) deed for Hagia Sophia drawn up, financing its operation as a mosque complex.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "transform_id": "T06",
+    "period": "1458",
+    "ruler": "Mehmed II",
+    "dimension": "Infrastructure / military",
+    "change_description": "Yedikule Fortress built behind the Byzantine Golden Gate, repurposing part of the old defensive circuit as an Ottoman citadel/treasury.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "Medium",
+    "source_ids": "S10",
+    "source_id_list": [
+      "S10"
+    ]
+  },
+  {
+    "transform_id": "T07",
+    "period": "1459",
+    "ruler": "Mehmed II",
+    "dimension": "Political",
+    "change_description": "Strategic relocation of the Ottoman capital from Edirne to Istanbul (per Necipoglu, citing Kritoboulos); popular narratives sometimes date this to 1453 itself.",
+    "fact_or_interpretation": "Fact (date is contested between scholarly and popular framings)",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T08",
+    "period": "1459-1478",
+    "ruler": "Mehmed II",
+    "dimension": "Infrastructure",
+    "change_description": "Topkapi Palace (the 'New Palace') constructed on the old acropolis; foundation in 1459, completion inscription dated 1478 on the Imperial Gate.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T09",
+    "period": "1459-1470",
+    "ruler": "Mehmed II",
+    "dimension": "Infrastructure / cultural",
+    "change_description": "Fatih Mosque complex built on the site of the Byzantine Church of the Holy Apostles; construction initiated 1459, foundation inscription dated 1463-70; complex included eight madrasas.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T10",
+    "period": "1467",
+    "ruler": "Mehmed II",
+    "dimension": "Demographic",
+    "change_description": "Major plague outbreak reported (over 600 dead); Oz notes the city nonetheless saw large population growth over the following decade, implying continued in-migration outweighed plague losses.",
+    "fact_or_interpretation": "Fact (event) / Interpretation (net growth despite plague)",
+    "confidence": "Medium",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "transform_id": "T11",
+    "period": "1472",
+    "ruler": "Mehmed II",
+    "dimension": "Infrastructure",
+    "change_description": "Tiled Kiosk (Cinili Kosk) completed as part of the palace building programme.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T12",
+    "period": "1477",
+    "ruler": "Mehmed II",
+    "dimension": "Demographic",
+    "change_description": "Household census of the Istanbul side records 16,324 households, the first solid quantitative population anchor for the post-conquest city (see population_1477_households.csv).",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "transform_id": "T13",
+    "period": "1477-1478",
+    "ruler": "Mehmed II",
+    "dimension": "Economic",
+    "change_description": "Fatih complex endowments furnished with shops and other commercial establishments; a gold coin minted from 1477-78.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T14",
+    "period": "1479",
+    "ruler": "Mehmed II",
+    "dimension": "Diplomatic / economic",
+    "change_description": "Ottoman-Venetian peace treaty concluded, restoring commercial ties with a major former opponent; the Venetian painter Gentile Bellini resident at the Ottoman court 1479-81.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T15",
+    "period": "1481",
+    "ruler": "Mehmed II (reign ends)",
+    "dimension": "Political",
+    "change_description": "Death of Mehmed II (3 May 1481) closes the founding reign of the reconstructed Ottoman capital; the building and resettlement programme he began continued under his successors.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "transform_id": "T16",
+    "period": "Cumulative 1453-1481 (interpretation)",
+    "ruler": "Mehmed II",
+    "dimension": "Urban development (synthesis)",
+    "change_description": "Across roughly three decades the city moved from a depopulated, war-damaged Byzantine capital toward a functioning, endowed, multi-confessional Ottoman capital with a new palace, mosque complex, and administrative registers - though full recovery to the city's peak medieval population took considerably longer (see population_context.csv for later-period estimates).",
+    "fact_or_interpretation": "Interpretation (synthesis of the fact rows above)",
+    "confidence": "Medium",
+    "source_ids": "S04;S05",
+    "source_id_list": [
+      "S04",
+      "S05"
+    ]
+  }
+]

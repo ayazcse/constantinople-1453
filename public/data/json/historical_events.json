@@ -1,0 +1,273 @@
+[
+  {
+    "event_id": "H01",
+    "year_start": 330,
+    "year_end": 330,
+    "century_label": "4th century",
+    "event_name": "Constantine I dedicates Constantinople as capital",
+    "category": "Political",
+    "description": "The Roman Emperor Constantine the Great dedicates the city on the site of ancient Byzantium as the new imperial capital.",
+    "confidence": "High",
+    "source_ids": "S37",
+    "source_id_list": [
+      "S37"
+    ]
+  },
+  {
+    "event_id": "H02",
+    "year_start": 1204,
+    "year_end": 1204,
+    "century_label": "13th century",
+    "event_name": "Fourth Crusade sacks Constantinople",
+    "category": "Military",
+    "description": "Crusader knights capture and sack the city; the Byzantine population and economy do not recover to prior scale before 1453 (see population_context.csv).",
+    "confidence": "High",
+    "source_ids": "S04;S37",
+    "source_id_list": [
+      "S04",
+      "S37"
+    ]
+  },
+  {
+    "event_id": "H03",
+    "year_start": 1261,
+    "year_end": 1261,
+    "century_label": "13th century",
+    "event_name": "Byzantine (Palaiologan) recovery of the city",
+    "category": "Political",
+    "description": "Control passes back to the Greeks under the Palaiologan dynasty after the Latin interregnum.",
+    "confidence": "High",
+    "source_ids": "S37",
+    "source_id_list": [
+      "S37"
+    ]
+  },
+  {
+    "event_id": "H04",
+    "year_start": 1393,
+    "year_end": 1394,
+    "century_label": "14th century",
+    "event_name": "Anadolu Hisari built",
+    "category": "Infrastructure",
+    "description": "Bayezid I builds a fortress on the Asian shore of the Bosphorus, the future counterpart to Rumelihisari.",
+    "confidence": "High",
+    "source_ids": "S17;S41",
+    "source_id_list": [
+      "S17",
+      "S41"
+    ]
+  },
+  {
+    "event_id": "H05",
+    "year_start": 1451,
+    "year_end": 1481,
+    "century_label": "15th century",
+    "event_name": "Reign of Mehmed II (second reign)",
+    "category": "Political",
+    "description": "Sultan whose conquest and rebuilding programme frame this entire project (see campaign_timeline.csv and post_conquest_transformation.csv for detail).",
+    "confidence": "High",
+    "source_ids": "S05;S02",
+    "source_id_list": [
+      "S05",
+      "S02"
+    ]
+  },
+  {
+    "event_id": "H06",
+    "year_start": 1453,
+    "year_end": 1453,
+    "century_label": "15th century",
+    "event_name": "Fall of Constantinople / conquest of the city",
+    "category": "Political",
+    "description": "29 May 1453; end of the Byzantine Empire and start of the city's transformation into the Ottoman capital. See campaign_timeline.csv for a day-level account.",
+    "confidence": "High",
+    "source_ids": "S02",
+    "source_id_list": [
+      "S02"
+    ]
+  },
+  {
+    "event_id": "H07",
+    "year_start": 1459,
+    "year_end": 1481,
+    "century_label": "15th century",
+    "event_name": "Founding infrastructure of the Ottoman capital",
+    "category": "Infrastructure",
+    "description": "Topkapi Palace, the Fatih Mosque complex, and the formal relocation of the capital from Edirne, all under Mehmed II. See post_conquest_transformation.csv.",
+    "confidence": "High",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "event_id": "H08",
+    "year_start": 1477,
+    "year_end": 1477,
+    "century_label": "15th century",
+    "event_name": "First solid post-conquest population anchor",
+    "category": "Demographic",
+    "description": "Household census records 16,324 households on the Istanbul side. See population_1477_households.csv.",
+    "confidence": "High",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "event_id": "H09",
+    "year_start": 1500,
+    "year_end": 1599,
+    "century_label": "16th century",
+    "event_name": "Population growth and disputed scale under later 16th-century sultans",
+    "category": "Demographic",
+    "description": "Historians cited by Oz give widely varying estimates (roughly 400,000-700,000) for the city's 16th-century population; no single figure is treated as settled in the sources reviewed.",
+    "confidence": "Low",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "event_id": "H10",
+    "year_start": 1509,
+    "year_end": 1509,
+    "century_label": "16th century",
+    "event_name": "Great Istanbul earthquake damages Rumelihisari",
+    "category": "Infrastructure",
+    "description": "The 1509 earthquake ('Lesser Judgment Day' in later tradition) damages Rumelihisari, which is subsequently repaired.",
+    "confidence": "Medium",
+    "source_ids": "S41",
+    "source_id_list": [
+      "S41"
+    ]
+  },
+  {
+    "event_id": "H11",
+    "year_start": 1550,
+    "year_end": 1557,
+    "century_label": "16th century",
+    "event_name": "Suleymaniye Mosque complex built",
+    "category": "Infrastructure",
+    "description": "Major architectural addition to the Ottoman capital's skyline under Suleyman I, illustrating continued imperial investment in the city (general architectural-history knowledge; not independently sourced in this project's search results).",
+    "confidence": "Medium",
+    "source_ids": null,
+    "source_id_list": [
+      "N/A"
+    ]
+  },
+  {
+    "event_id": "H12",
+    "year_start": 1729,
+    "year_end": 1729,
+    "century_label": "18th century",
+    "event_name": "Ottoman printing press established in Istanbul",
+    "category": "Cultural",
+    "description": "Ibrahim Muteferrika's press marks an early institutional step in the city's print culture (general historical knowledge; not independently sourced in this project's search results).",
+    "confidence": "Low",
+    "source_ids": null,
+    "source_id_list": [
+      "N/A"
+    ]
+  },
+  {
+    "event_id": "H13",
+    "year_start": 1839,
+    "year_end": 1876,
+    "century_label": "19th century",
+    "event_name": "Tanzimat reform era",
+    "category": "Political",
+    "description": "Administrative and legal modernization reforms centered on Istanbul as the imperial capital (general historical knowledge; not independently sourced in this project's search results).",
+    "confidence": "Low",
+    "source_ids": null,
+    "source_id_list": [
+      "N/A"
+    ]
+  },
+  {
+    "event_id": "H14",
+    "year_start": 1885,
+    "year_end": 1885,
+    "century_label": "19th century",
+    "event_name": "First official Ottoman census of the city",
+    "category": "Demographic",
+    "description": "First modern census records roughly 875,000 residents. See population_context.csv (P10).",
+    "confidence": "Medium",
+    "source_ids": "S19",
+    "source_id_list": [
+      "S19"
+    ]
+  },
+  {
+    "event_id": "H15",
+    "year_start": 1923,
+    "year_end": 1923,
+    "century_label": "20th century",
+    "event_name": "Ankara becomes capital of the Turkish Republic",
+    "category": "Political",
+    "description": "Istanbul loses its political-capital status after roughly 1,600 years (330-1453 as Byzantine/Roman capital, 1453-1922 as Ottoman capital) though it remains the country's largest city and commercial-cultural center (general historical knowledge; not independently sourced in this project's search results).",
+    "confidence": "Medium",
+    "source_ids": null,
+    "source_id_list": [
+      "N/A"
+    ]
+  },
+  {
+    "event_id": "H16",
+    "year_start": 1927,
+    "year_end": 1927,
+    "century_label": "20th century",
+    "event_name": "First Turkish Republic census of the city",
+    "category": "Demographic",
+    "description": "691,000 residents within municipal boundaries, down from roughly 1,200,000 in the World War I era. See population_context.csv (P11).",
+    "confidence": "High",
+    "source_ids": "S20",
+    "source_id_list": [
+      "S20"
+    ]
+  },
+  {
+    "event_id": "H17",
+    "year_start": 1950,
+    "year_end": 2000,
+    "century_label": "20th-21st century",
+    "event_name": "Rapid 20th-century urban and population growth",
+    "category": "Demographic",
+    "description": "Province population grows from roughly 1.17 million (1950) to just over 10 million (2000) across successive national censuses. See population_context.csv (P12-P15).",
+    "confidence": "Medium",
+    "source_ids": "S21",
+    "source_id_list": [
+      "S21"
+    ]
+  },
+  {
+    "event_id": "H18",
+    "year_start": 1985,
+    "year_end": 1985,
+    "century_label": "20th century",
+    "event_name": "Historic Areas of Istanbul inscribed as a UNESCO World Heritage Site",
+    "category": "Cultural",
+    "description": "Inscription (ref. 356) covers several zones including the Theodosian land walls.",
+    "confidence": "High",
+    "source_ids": "S11",
+    "source_id_list": [
+      "S11"
+    ]
+  },
+  {
+    "event_id": "H19",
+    "year_start": 2017,
+    "year_end": 2025,
+    "century_label": "21st century",
+    "event_name": "Continued growth to roughly 15.0-15.8 million residents",
+    "category": "Demographic",
+    "description": "Address-Based Population Registration System figures place the province at approximately 15.0 million (2017), 15.8 million (2021), approximately 15.7 million (2023) and 15,754,053 (end of 2025). See population_context.csv (P16-P19).",
+    "confidence": "High",
+    "source_ids": "S22;S44;S45",
+    "source_id_list": [
+      "S22",
+      "S44",
+      "S45"
+    ]
+  }
+]

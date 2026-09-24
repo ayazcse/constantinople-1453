@@ -1,0 +1,366 @@
+[
+  {
+    "period_id": "P01",
+    "period_label": "Late 4th century (after Constantine's refoundation)",
+    "year_numeric": 390,
+    "city_name": "Constantinople",
+    "population_estimate": 200000.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "Low",
+    "method": "Estimated in secondary literature; described in the source itself as possibly much exaggerated.",
+    "source_ids": "S04",
+    "note": "Oz (istanbultarihi.ist) reports this figure but explicitly notes there are views that such estimates are greatly exaggerated.",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 200000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P02",
+    "period_label": "End of 6th century",
+    "year_numeric": 590,
+    "city_name": "Constantinople",
+    "population_estimate": null,
+    "population_low": 400000.0,
+    "population_high": 500000.0,
+    "unit": "people",
+    "confidence": "Low",
+    "method": "Estimated in secondary literature.",
+    "source_ids": "S04",
+    "note": "Reported as an estimate around half a million; same source flags exaggeration risk for this era generally.",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 450000.0,
+    "is_range_only": true
+  },
+  {
+    "period_id": "P03",
+    "period_label": "9th century peak (disputed)",
+    "year_numeric": 850,
+    "city_name": "Constantinople",
+    "population_estimate": null,
+    "population_low": null,
+    "population_high": 1000000.0,
+    "unit": "people",
+    "confidence": "Low",
+    "method": "Estimated in secondary literature; explicitly disputed.",
+    "source_ids": "S04",
+    "note": "Oz reports a estimate of about one million but states views exist that this is greatly exaggerated. Treat as an upper-bound tradition, not a fact.",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 1000000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P04",
+    "period_label": "After the Fourth Crusade sack (1204) through the Palaiologan era",
+    "year_numeric": 1204,
+    "city_name": "Constantinople",
+    "population_estimate": null,
+    "population_low": 50000.0,
+    "population_high": 75000.0,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "Estimated in secondary literature from population-history synthesis.",
+    "source_ids": "S04",
+    "note": "Population fell sharply after the 1204 sack according to Oz; city did not recover to earlier scale before 1453.",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 62500.0,
+    "is_range_only": true
+  },
+  {
+    "period_id": "P05",
+    "period_label": "At the 1453 conquest",
+    "year_numeric": 1453,
+    "city_name": "Constantinople",
+    "population_estimate": 45000.0,
+    "population_low": 40000.0,
+    "population_high": 50000.0,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "A. M. Schneider's estimate, as reported by Oz; on the same order as the late-Palaiologan range in P04.",
+    "source_ids": "S04",
+    "note": "Schneider's estimate for the population during the siege; Oz notes other period sources differ (see source_claims for the Sphrantzes defender count, which is a garrison figure, not a total population figure).",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 45000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P06",
+    "period_label": "Household register of Istanbul and Galata",
+    "year_numeric": 1455,
+    "city_name": "Istanbul",
+    "population_estimate": null,
+    "population_low": null,
+    "population_high": null,
+    "unit": "households",
+    "confidence": "High",
+    "method": "First Ottoman survey after the conquest; surviving copy is partial.",
+    "source_ids": "S04;S07",
+    "note": "Records households (not individuals) for 33 quarters in Istanbul and 23 in Galata (864 Galata households); Istanbul total not given as a clean number in the source reviewed - see notes; treat population_estimate as not applicable for this row.",
+    "source_id_list": [
+      "S04",
+      "S07"
+    ],
+    "display_value": null,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P07",
+    "period_label": "Household census (Istanbul side only)",
+    "year_numeric": 1477,
+    "city_name": "Istanbul",
+    "population_estimate": null,
+    "population_low": null,
+    "population_high": null,
+    "unit": "households",
+    "confidence": "High",
+    "method": "Ottoman tax/administrative register.",
+    "source_ids": "S04",
+    "note": "16,324 households recorded on the Istanbul side (see population_1477_households.csv for the full quarter-level breakdown and the resulting population range).",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": null,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P08",
+    "period_label": "Population implied by the 1477 household count",
+    "year_numeric": 1477,
+    "city_name": "Istanbul",
+    "population_estimate": 60000.0,
+    "population_low": 50000.0,
+    "population_high": 70000.0,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "Population estimated by applying a conventional multiplier (about 4-5 people per household) to the household count; a range is given because the multiplier itself is an assumption, not a recorded figure.",
+    "source_ids": "S04;S19",
+    "note": "SAGE Encyclopedia of Urban Studies independently gives roughly 60,000 for 1477, which sits inside this multiplier-based range.",
+    "source_id_list": [
+      "S04",
+      "S19"
+    ],
+    "display_value": 60000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P09",
+    "period_label": "16th century (era of Suleyman I)",
+    "year_numeric": 1550,
+    "city_name": "Istanbul",
+    "population_estimate": null,
+    "population_low": 400000.0,
+    "population_high": 700000.0,
+    "unit": "people",
+    "confidence": "Low",
+    "method": "Estimated in secondary literature; wide range reflects disagreement among historians cited by Oz (Barkan, Mantran and others give different figures).",
+    "source_ids": "S04",
+    "note": "No single defensible point estimate could be sourced for this project; presented only as a wide range.",
+    "source_id_list": [
+      "S04"
+    ],
+    "display_value": 550000.0,
+    "is_range_only": true
+  },
+  {
+    "period_id": "P10",
+    "period_label": "First official Ottoman census (city proper)",
+    "year_numeric": 1885,
+    "city_name": "Istanbul",
+    "population_estimate": 875000.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "First modern census.",
+    "source_ids": "S19",
+    "note": "SAGE Encyclopedia of Urban Studies gives roughly 875,000 for the first census of 1885.",
+    "source_id_list": [
+      "S19"
+    ],
+    "display_value": 875000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P11",
+    "period_label": "First Turkish Republic census (municipal boundaries)",
+    "year_numeric": 1927,
+    "city_name": "Istanbul",
+    "population_estimate": 691000.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "High",
+    "method": "National census (Turkish Republic).",
+    "source_ids": "S20",
+    "note": "Istanbultarihi.ist gives 691,000 within the municipal boundaries in the 1927 census, down from roughly 1,200,000 in the World War I era it also cites.",
+    "source_id_list": [
+      "S20"
+    ],
+    "display_value": 691000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P12",
+    "period_label": "National census (province)",
+    "year_numeric": 1950,
+    "city_name": "Istanbul",
+    "population_estimate": 1166477.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "National census compilation (province level).",
+    "source_ids": "S21",
+    "note": "From a table of TUIK census results compiled by Geoconfluences (ENS Lyon).",
+    "source_id_list": [
+      "S21"
+    ],
+    "display_value": 1166477.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P13",
+    "period_label": "National census (province)",
+    "year_numeric": 1970,
+    "city_name": "Istanbul",
+    "population_estimate": 3019032.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "National census compilation (province level).",
+    "source_ids": "S21",
+    "note": null,
+    "source_id_list": [
+      "S21"
+    ],
+    "display_value": 3019032.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P14",
+    "period_label": "National census (province)",
+    "year_numeric": 1990,
+    "city_name": "Istanbul",
+    "population_estimate": 7309190.0,
+    "population_low": 7196753.0,
+    "population_high": 7309190.0,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "National census (province level); two compilations disagree by about 112,000.",
+    "source_ids": "S21;S22",
+    "note": "Geoconfluences gives 7,196,753; the Istanbul Chamber of Commerce fact sheet gives 7,309,190 for the same year. Both are kept as a range.",
+    "source_id_list": [
+      "S21",
+      "S22"
+    ],
+    "display_value": 7309190.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P15",
+    "period_label": "National census (province)",
+    "year_numeric": 2000,
+    "city_name": "Istanbul",
+    "population_estimate": 10018735.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "Medium",
+    "method": "National census (province level).",
+    "source_ids": "S21",
+    "note": null,
+    "source_id_list": [
+      "S21"
+    ],
+    "display_value": 10018735.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P16",
+    "period_label": "Address-Based Population Registration System (province)",
+    "year_numeric": 2017,
+    "city_name": "Istanbul",
+    "population_estimate": 15029231.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "High",
+    "method": "Administrative register, not a door-to-door census.",
+    "source_ids": "S22",
+    "note": null,
+    "source_id_list": [
+      "S22"
+    ],
+    "display_value": 15029231.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P17",
+    "period_label": "Address-Based Population Registration System (province)",
+    "year_numeric": 2021,
+    "city_name": "Istanbul",
+    "population_estimate": 15840900.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "High",
+    "method": "Administrative register.",
+    "source_ids": "S22",
+    "note": null,
+    "source_id_list": [
+      "S22"
+    ],
+    "display_value": 15840900.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P18",
+    "period_label": "Address-Based Population Registration System (province)",
+    "year_numeric": 2023,
+    "city_name": "Istanbul",
+    "population_estimate": 15700000.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "High",
+    "method": "Administrative register; TurkStat's end-2023 provincial figure is reported in the approximately 15.6-15.7 million range across summaries; treated as approximate pending the exact published integer.",
+    "source_ids": "S44",
+    "note": "TurkStat 2023 ABPRS results, as summarized in press coverage; Istanbul was reported at roughly 15.7 million, the most populous province in Turkiye.",
+    "source_id_list": [
+      "S44"
+    ],
+    "display_value": 15700000.0,
+    "is_range_only": false
+  },
+  {
+    "period_id": "P19",
+    "period_label": "Address-Based Population Registration System (province)",
+    "year_numeric": 2025,
+    "city_name": "Istanbul",
+    "population_estimate": 15754053.0,
+    "population_low": null,
+    "population_high": null,
+    "unit": "people",
+    "confidence": "High",
+    "method": "Administrative register (TUIK ADNKS 2025 results, released Feb 2026).",
+    "source_ids": "S45",
+    "note": "Istanbul remained Turkiye's most populous province at 15,754,053 as of 31 December 2025, per TUIK's ADNKS release covered in this project's search results.",
+    "source_id_list": [
+      "S45"
+    ],
+    "display_value": 15754053.0,
+    "is_range_only": false
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "tables": [
+    "sources",
+    "locations",
+    "map_geometries",
+    "campaign_timeline",
+    "historical_events",
+    "fortifications",
+    "population_context",
+    "population_1477_households",
+    "strategic_factors",
+    "post_conquest_transformation",
+    "before_after_comparison",
+    "insights",
+    "source_claims"
+  ],
+  "kpis": "kpis.json",
+  "note": "Every table here traces back to /data/raw/*.csv and /data/raw/sources.csv. See docs/METHODOLOGY.md for the full pipeline description."
+}

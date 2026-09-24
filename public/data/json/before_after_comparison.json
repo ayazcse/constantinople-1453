@@ -1,0 +1,105 @@
+[
+  {
+    "dimension": "Political role",
+    "before_1453": "Capital of the shrinking Byzantine (Eastern Roman) Empire, reduced by 1453 to little more than the city itself and parts of the Peloponnese.",
+    "after_1453_short_term": "City under Ottoman military administration immediately after 29 May 1453.",
+    "after_1453_longer_term": "Formal Ottoman capital from 1459 (Necipoglu, citing Kritoboulos) through to 1922-23; the seat of the Ottoman court and government for over four and a half centuries.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05;S02",
+    "source_id_list": [
+      "S05",
+      "S02"
+    ]
+  },
+  {
+    "dimension": "Religious institutions",
+    "before_1453": "Hagia Sophia functioned as the Patriarchal cathedral of Orthodox Christianity; multiple churches and monasteries across the city.",
+    "after_1453_short_term": "Hagia Sophia converted into the city's premier imperial mosque in 1453, keeping its name; the Orthodox patriarchate continued under a new patriarch appointed 6 January 1454.",
+    "after_1453_longer_term": "Endowments (waqfs) established for major converted and newly built religious complexes (e.g. the 1457 Hagia Sophia waqf and the Fatih complex).",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05;S04",
+    "source_id_list": [
+      "S05",
+      "S04"
+    ]
+  },
+  {
+    "dimension": "Demographic scale",
+    "before_1453": "Roughly 40,000-50,000 residents at the time of the siege (Schneider's estimate), far below the city's medieval peak.",
+    "after_1453_short_term": "Population initially fell further; Oz notes an early 1453 wave of Anatolian settlers had returned home by autumn, showing depopulation was not solved by a single transfer.",
+    "after_1453_longer_term": "Household census of 1477 records 16,324 households on the Istanbul side (~50,000-70,000 people on a conventional multiplier); population climbed further across the following centuries, reaching roughly 15.75 million in the province by end-2025.",
+    "fact_or_interpretation": "Fact (figures) / Interpretation (the recovery narrative)",
+    "confidence": "Medium",
+    "source_ids": "S04;S22;S45",
+    "source_id_list": [
+      "S04",
+      "S22",
+      "S45"
+    ]
+  },
+  {
+    "dimension": "Administrative structures",
+    "before_1453": "Byzantine imperial and ecclesiastical bureaucracy centered on the city.",
+    "after_1453_short_term": "First post-conquest survey (partial) completed in 1455, covering Istanbul and Galata by household.",
+    "after_1453_longer_term": "Sustained Ottoman administrative apparatus, including household/tax registers such as the 1477 census.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S04;S07",
+    "source_id_list": [
+      "S04",
+      "S07"
+    ]
+  },
+  {
+    "dimension": "Infrastructure / built environment",
+    "before_1453": "Byzantine-era walls, palaces (e.g. Blachernae), churches including the Church of the Holy Apostles, largely in a state of long-term decline and partial disrepair by the 15th century.",
+    "after_1453_short_term": "Existing fortifications maintained and adapted (e.g. Yedikule Fortress built behind the Golden Gate in 1458).",
+    "after_1453_longer_term": "New Ottoman palace (Topkapi, 1459-1478) and mosque complex (Fatih, foundation inscription 1463-70, built on the site of the Church of the Holy Apostles) added to the cityscape.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "High",
+    "source_ids": "S05;S10",
+    "source_id_list": [
+      "S05",
+      "S10"
+    ]
+  },
+  {
+    "dimension": "Economic role",
+    "before_1453": "Constrained trade, in part due to the city's reduced political and territorial base in its final Byzantine decades (general characterization, low confidence; not independently quantified in the sources reviewed for this project).",
+    "after_1453_short_term": "Commercial life disrupted immediately by the conquest and by population loss.",
+    "after_1453_longer_term": "Endowed commercial establishments (shops) attached to major religious complexes from the 1470s (Medium confidence); renewed diplomatic and trade ties with Venice from the 1479 peace treaty (High confidence).",
+    "fact_or_interpretation": "Fact (post-conquest details) / Interpretation (pre-1453 characterization)",
+    "confidence": "Low",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "dimension": "Urban development pattern",
+    "before_1453": "City occupied much of the area within the Theodosian walls, though travelers' accounts (cited in period historiography) describe large open or depopulated spaces by the mid-15th century.",
+    "after_1453_short_term": "Initial post-conquest years included forced and incentivized resettlement programmes to repopulate specific quarters.",
+    "after_1453_longer_term": "Long-term growth extended the city well beyond the historic peninsula across subsequent centuries, a process this dataset does not attempt to map in detail beyond the population figures in population_context.csv.",
+    "fact_or_interpretation": "Interpretation",
+    "confidence": "Low",
+    "source_ids": "S04",
+    "source_id_list": [
+      "S04"
+    ]
+  },
+  {
+    "dimension": "Strategic/military role",
+    "before_1453": "Walls and the Golden Horn chain served as the primary active defence of a sovereign capital under existential threat.",
+    "after_1453_short_term": "Rumelihisari and Anadolu Hisari lost most of their strategic purpose once the city itself was in Ottoman hands, since the two fortresses had been built specifically to interdict traffic to a hostile capital.",
+    "after_1453_longer_term": "The city's fortifications became heritage rather than active defence works over subsequent centuries; the Theodosian walls and related sites were inscribed as part of a UNESCO World Heritage listing in 1985.",
+    "fact_or_interpretation": "Fact",
+    "confidence": "Medium",
+    "source_ids": "S41;S11",
+    "source_id_list": [
+      "S41",
+      "S11"
+    ]
+  }
+]

@@ -1,0 +1,375 @@
+[
+  {
+    "location_id": "L01",
+    "name": "Hagia Sophia",
+    "layer": "City",
+    "type": "Landmark",
+    "lat": 41.0086,
+    "lon": 28.9802,
+    "coord_quality": "Precise",
+    "side": "Neutral",
+    "description": "Patriarchal cathedral of the Byzantine capital; converted into the premier imperial mosque in 1453 without a change of name.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L02",
+    "name": "Topkapi Palace (New Palace)",
+    "layer": "City",
+    "type": "Landmark",
+    "lat": 41.0115,
+    "lon": 28.9834,
+    "coord_quality": "Precise",
+    "side": "Ottoman",
+    "description": "Begun in 1459 and completed in 1478 on the ancient acropolis; became the seat of the Ottoman court.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L03",
+    "name": "Fatih Mosque complex (site of the Church of the Holy Apostles)",
+    "layer": "City",
+    "type": "Landmark",
+    "lat": 41.0196,
+    "lon": 28.9497,
+    "coord_quality": "Precise",
+    "side": "Ottoman",
+    "description": "Mehmed II's complex; foundation inscription dated 1463-70; eight madrasas; built on the site of the Church of the Holy Apostles.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L04",
+    "name": "Old Palace site (Beyazit)",
+    "layer": "City",
+    "type": "Landmark",
+    "lat": 41.0117,
+    "lon": 28.964,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "First Ottoman palace in the city near the old Forum of Theodosius (Beyazit Square area). Exact footprint not mapped here.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L05",
+    "name": "Blachernae quarter and palace area",
+    "layer": "Walls",
+    "type": "Sector",
+    "lat": 41.0375,
+    "lon": 28.94,
+    "coord_quality": "Approximate",
+    "side": "Byzantine",
+    "description": "Northern sector where the defence relied on a later single-wall extension; Byzantine imperial residence area. One of the two points where the defence cracked on 29 May.",
+    "source_ids": "S02;S23;S14",
+    "source_id_list": [
+      "S02",
+      "S23",
+      "S14"
+    ]
+  },
+  {
+    "location_id": "L06",
+    "name": "Eyup Sultan complex",
+    "layer": "City",
+    "type": "Landmark",
+    "lat": 41.0477,
+    "lon": 28.9339,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "Shrine associated with the discovery of the tomb of Abu Ayyub al-Ansari after the conquest; outside the walls on the Golden Horn.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L07",
+    "name": "Galata (Genoese Pera)",
+    "layer": "Strategic",
+    "type": "District",
+    "lat": 41.0256,
+    "lon": 28.9744,
+    "coord_quality": "Precise",
+    "side": "Genoese",
+    "description": "Genoese colony across the Golden Horn; stayed neutral during the siege. Marker placed on Galata Tower as a landmark for the district.",
+    "source_ids": "S02",
+    "source_id_list": [
+      "S02"
+    ]
+  },
+  {
+    "location_id": "L08",
+    "name": "Seraglio Point (Sarayburnu)",
+    "layer": "Water",
+    "type": "Headland",
+    "lat": 41.0166,
+    "lon": 28.985,
+    "coord_quality": "Approximate",
+    "side": "Neutral",
+    "description": "Headland where the Marmara and Golden Horn walls meet; site later chosen for the Topkapi Palace.",
+    "source_ids": "S05",
+    "source_id_list": [
+      "S05"
+    ]
+  },
+  {
+    "location_id": "L09",
+    "name": "Golden Gate and Yedikule Fortress",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 40.9934,
+    "lon": 28.9215,
+    "coord_quality": "Approximate",
+    "side": "Byzantine",
+    "description": "Ceremonial gate at the Marmara end of the land walls; the Ottomans built Yedikule Fortress behind it in 1458.",
+    "source_ids": "S10",
+    "source_id_list": [
+      "S10"
+    ]
+  },
+  {
+    "location_id": "L10",
+    "name": "First Military Gate",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 40.988991,
+    "lon": 28.920167,
+    "coord_quality": "Published GPS",
+    "side": "Byzantine",
+    "description": "Southern end of the land walls near the Sea of Marmara.",
+    "source_ids": "S16",
+    "source_id_list": [
+      "S16"
+    ]
+  },
+  {
+    "location_id": "L11",
+    "name": "Silivrikapi (Gate of the Spring)",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 41.00611,
+    "lon": 28.921798,
+    "coord_quality": "Published GPS",
+    "side": "Byzantine",
+    "description": "Gate whose towers carry a 1439 repair inscription in published descriptions.",
+    "source_ids": "S16",
+    "source_id_list": [
+      "S16"
+    ]
+  },
+  {
+    "location_id": "L12",
+    "name": "Fourth Military Gate (centre of the Mesoteichion)",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 41.019087,
+    "lon": 28.924337,
+    "coord_quality": "Published GPS",
+    "side": "Byzantine",
+    "description": "Described as lying at the centre of the Mesoteichion (Lycus valley) - the sector described as the weakest section of the wall. Ottoman heavy guns were concentrated against the Lycus valley.",
+    "source_ids": "S16;S02",
+    "source_id_list": [
+      "S16",
+      "S02"
+    ]
+  },
+  {
+    "location_id": "L13",
+    "name": "Gate of St. Romanus (Topkapi)",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 41.0212,
+    "lon": 28.9262,
+    "coord_quality": "Approximate",
+    "side": "Byzantine",
+    "description": "Janissaries breached the stockade near this gate on 29 May. Identification of the gate is debated in the literature; position is approximate.",
+    "source_ids": "S02;S16",
+    "source_id_list": [
+      "S02",
+      "S16"
+    ]
+  },
+  {
+    "location_id": "L14",
+    "name": "Gate of Charisius (Edirnekapi)",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 41.03,
+    "lon": 28.937,
+    "coord_quality": "Approximate",
+    "side": "Byzantine",
+    "description": "Reported command point of Constantine XI in 1453 and, in some accounts, the gate of Mehmed II's entry.",
+    "source_ids": "S38;S23",
+    "source_id_list": [
+      "S38",
+      "S23"
+    ]
+  },
+  {
+    "location_id": "L15",
+    "name": "Kerkoporta (postern near Blachernae)",
+    "layer": "Walls",
+    "type": "Gate",
+    "lat": 41.035,
+    "lon": 28.9395,
+    "coord_quality": "Approximate",
+    "side": "Byzantine",
+    "description": "Small postern that the Oxford Dictionary of Byzantium says was left unattended; exact location is debated, so treat this marker as indicative only.",
+    "source_ids": "S02",
+    "source_id_list": [
+      "S02"
+    ]
+  },
+  {
+    "location_id": "L16",
+    "name": "Mal Tepe (traditional command position of Mehmed II)",
+    "layer": "Strategic",
+    "type": "Position",
+    "lat": 41.0215,
+    "lon": 28.9215,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "Tradition places the sultan's command position on the mound outside the Topkapi gate. Tradition only; coordinates indicative.",
+    "source_ids": "S36",
+    "source_id_list": [
+      "S36"
+    ]
+  },
+  {
+    "location_id": "L17",
+    "name": "Rumeli Hisari",
+    "layer": "Strategic",
+    "type": "Fortress",
+    "lat": 41.0847,
+    "lon": 29.0561,
+    "coord_quality": "Precise",
+    "side": "Ottoman",
+    "description": "Ottoman fortress built 15 April-31 August 1452 at the narrowest point of the Bosphorus (about 660 m).",
+    "source_ids": "S17;S41;S03",
+    "source_id_list": [
+      "S17",
+      "S41",
+      "S03"
+    ]
+  },
+  {
+    "location_id": "L18",
+    "name": "Anadolu Hisari",
+    "layer": "Strategic",
+    "type": "Fortress",
+    "lat": 41.0846,
+    "lon": 29.0672,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "Fortress on the Asian shore built by Bayezid I in 1393-94, opposite Rumeli Hisari.",
+    "source_ids": "S17",
+    "source_id_list": [
+      "S17"
+    ]
+  },
+  {
+    "location_id": "L19",
+    "name": "Golden Horn boom (chain)",
+    "layer": "Water",
+    "type": "Naval barrier",
+    "lat": 41.0213,
+    "lon": 28.9777,
+    "coord_quality": "Schematic",
+    "side": "Byzantine",
+    "description": "Chain stretched across the mouth of the Golden Horn between Constantinople and Galata (from 2 April 1453). Anchor points are debated; marker is the midpoint of a schematic line.",
+    "source_ids": "S13;S15;S14",
+    "source_id_list": [
+      "S13",
+      "S15",
+      "S14"
+    ]
+  },
+  {
+    "location_id": "L20",
+    "name": "Ottoman fleet anchorage (Dolmabahce-Besiktas shore)",
+    "layer": "Water",
+    "type": "Anchorage",
+    "lat": 41.0395,
+    "lon": 28.9997,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "Bosphorus shore where the ships hauled overland on 22 April are usually placed. Indicative.",
+    "source_ids": "S15;S02",
+    "source_id_list": [
+      "S15",
+      "S02"
+    ]
+  },
+  {
+    "location_id": "L21",
+    "name": "Overland landing on the Golden Horn (Kasimpasa shore)",
+    "layer": "Water",
+    "type": "Landing",
+    "lat": 41.029,
+    "lon": 28.9668,
+    "coord_quality": "Approximate",
+    "side": "Ottoman",
+    "description": "Approximate point where the hauled ships entered the Golden Horn behind Galata. The exact route is debated.",
+    "source_ids": "S02;S15",
+    "source_id_list": [
+      "S02",
+      "S15"
+    ]
+  },
+  {
+    "location_id": "L22",
+    "name": "Golden Horn (Halic)",
+    "layer": "Water",
+    "type": "Water body",
+    "lat": 41.0335,
+    "lon": 28.9525,
+    "coord_quality": "Precise",
+    "side": "Neutral",
+    "description": "Inlet along the northern side of the city; the sea walls here were single-line and weaker than the land walls.",
+    "source_ids": "S15;S14",
+    "source_id_list": [
+      "S15",
+      "S14"
+    ]
+  },
+  {
+    "location_id": "L23",
+    "name": "Bosphorus",
+    "layer": "Water",
+    "type": "Water body",
+    "lat": 41.06,
+    "lon": 29.035,
+    "coord_quality": "Precise",
+    "side": "Neutral",
+    "description": "Strait linking the Black Sea and the Sea of Marmara; Ottoman control of the shores in 1452 cut the Black Sea route.",
+    "source_ids": "S17;S41",
+    "source_id_list": [
+      "S17",
+      "S41"
+    ]
+  },
+  {
+    "location_id": "L24",
+    "name": "Sea of Marmara",
+    "layer": "Water",
+    "type": "Water body",
+    "lat": 40.98,
+    "lon": 28.97,
+    "coord_quality": "Precise",
+    "side": "Neutral",
+    "description": "Southern sea approach; the Marmara sea walls were a single line.",
+    "source_ids": "S14",
+    "source_id_list": [
+      "S14"
+    ]
+  }
+]
