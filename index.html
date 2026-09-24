@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
 
     <title>Constantinople 1453 — A Data-Driven Analysis</title>
 
@@ -19,36 +23,223 @@
 
   <body>
 
+    <!-- React Application -->
     <div id="root"></div>
 
-    <!-- Background Audio -->
-    <audio id="backgroundAudio" loop preload="auto">
-      <source src="mehmed-theme.mp3" type="audio/mpeg" />
+
+    <!-- =========================================
+         CONSTANTINOPLE 1453 BACKGROUND MUSIC
+         ========================================= -->
+
+    <audio
+      id="backgroundAudio"
+      loop
+      preload="auto"
+      playsinline
+    >
+      <source
+        src="/mehmed-theme.mp3"
+        type="audio/mpeg"
+      />
     </audio>
 
+
     <script>
+      /*
+       * ==========================================
+       * BACKGROUND MUSIC CONTROLLER
+       * ==========================================
+       *
+       * Music is created ONCE here, outside React.
+       *
+       * Therefore:
+       * - changing React pages does NOT restart it
+       * - navigating between dashboard pages does NOT stop it
+       * - the same audio continues throughout the website
+       * - music loops continuously
+       *
+       * Browser autoplay restrictions still apply.
+       */
+
       const audio = document.getElementById("backgroundAudio");
 
+      // Keep the historical music subtle.
       audio.volume = 0.18;
 
-      // Try autoplay
-      audio.play().catch(() => {
-        // Browser blocked autoplay.
-        // Start audio after first user interaction.
-        const startAudio = () => {
-          audio.play().catch(() => {});
-          document.removeEventListener("click", startAudio);
-          document.removeEventListener("touchstart", startAudio);
-          document.removeEventListener("keydown", startAudio);
-        };
+      // Try to start immediately.
+      function startMusic() {
+        audio.play().catch(() => {
+          // Browser may block autoplay.
+          // We handle this below with first user interaction.
+        });
+      }
 
-        document.addEventListener("click", startAudio);
-        document.addEventListener("touchstart", startAudio);
-        document.addEventListener("keydown", startAudio);
-      });
+      startMusic();
+
+
+      /*
+       * ==========================================
+       * FIRST USER INTERACTION FALLBACK
+       * ==========================================
+       *
+       * If Chrome/Edge blocks autoplay,
+       * the first click/touch/key press starts music.
+       */
+
+      function startMusicAfterInteraction() {
+
+        audio.play()
+          .then(() => {
+
+            // Music successfully started.
+            removeInteractionListeners();
+
+          })
+          .catch(() => {
+            // Still blocked — leave listeners active.
+          });
+      }
+
+
+      function removeInteractionListeners() {
+
+        document.removeEventListener(
+          "click",
+          startMusicAfterInteraction
+        );
+
+        document.removeEventListener(
+          "touchstart",
+          startMusicAfterInteraction
+        );
+
+        document.removeEventListener(
+          "keydown",
+          startMusicAfterInteraction
+        );
+
+        document.removeEventListener(
+          "pointerdown",
+          startMusicAfterInteraction
+        );
+      }
+
+
+      document.addEventListener(
+        "click",
+        startMusicAfterInteraction,
+        { passive: true }
+      );
+
+      document.addEventListener(
+        "touchstart",
+        startMusicAfterInteraction,
+        { passive: true }
+      );
+
+      document.addEventListener(
+        "keydown",
+        startMusicAfterInteraction,
+        { passive: true }
+      );
+
+      document.addEventListener(
+        "pointerdown",
+        startMusicAfterInteraction,
+        { passive: true }
+      );
+
+
+      /*
+       * ==========================================
+       * PREVENT ACCIDENTAL RESTART
+       * ==========================================
+       *
+       * We do NOT call audio.play() repeatedly
+       * on every React route/page change.
+       *
+       * The audio element lives outside React,
+       * so it remains alive while React changes pages.
+       */
+
+
+      /*
+       * ==========================================
+       * OPTIONAL GLOBAL MUSIC CONTROL
+       * ==========================================
+       *
+       * You can control the music from your React
+       * application using:
+       *
+       * window.constantinopleMusic.play()
+       * window.constantinopleMusic.pause()
+       * window.constantinopleMusic.toggle()
+       * window.constantinopleMusic.setVolume(0.2)
+       */
+
+      window.constantinopleMusic = {
+
+        play: function () {
+          return audio.play();
+        },
+
+        pause: function () {
+          audio.pause();
+        },
+
+        toggle: function () {
+
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+
+        },
+
+        mute: function () {
+          audio.muted = true;
+        },
+
+        unmute: function () {
+          audio.muted = false;
+        },
+
+        toggleMute: function () {
+          audio.muted = !audio.muted;
+        },
+
+        setVolume: function (volume) {
+
+          // Keep volume between 0 and 1.
+          audio.volume = Math.max(
+            0,
+            Math.min(1, volume)
+          );
+
+        },
+
+        isPlaying: function () {
+          return !audio.paused;
+        },
+
+        isMuted: function () {
+          return audio.muted;
+        }
+
+      };
+
     </script>
 
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- =========================================
+         REACT APPLICATION
+         ========================================= -->
+
+    <script
+      type="module"
+      src="/src/main.jsx"
+    ></script>
 
   </body>
 </html>
